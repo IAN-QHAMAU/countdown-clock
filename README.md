@@ -2,6 +2,10 @@
 
 A sleek, sci-fi styled countdown timer with a live real-time clock — built with React.
 
+## Live Demo
+
+👉 https://ian-qhamau.github.io/countdown-clock/
+
 ## Features
 
 - **Live real-time clock** always displayed at the top (12-hour format, blinking colons)
