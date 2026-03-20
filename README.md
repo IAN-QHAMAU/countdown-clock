@@ -1,6 +1,6 @@
 # ⏱ Countdown Clock
 
-A sleek, sci-fi styled countdown timer with a live real-time clock — built with React.
+A sleek,sci-fi styled countdown timer with a live real-time clock built with React.
 
 ## Live Demo
 
@@ -9,8 +9,8 @@ A sleek, sci-fi styled countdown timer with a live real-time clock — built wit
 ## Features
 
 - **Live real-time clock** always displayed at the top (12-hour format, blinking colons)
-- **Adjustable countdown** via spin-inputs for hours, minutes, and seconds
-- **Quick presets** — 5m, 15m, 30m, 1h, 3h
+- **Adjustable countdown** via spin-inputs for hours,minutes,and seconds
+- **Quick presets** 5m,15m, 30m, 1h, 3h
 - **Animated arc ring** that fills as time elapses, with a glowing tip dot
 - **Digit flash animation** on each second tick
 - **Pause / Resume / Reset** full control
@@ -27,7 +27,7 @@ countdown-clock/
 │   ├── components/
 │   │   ├── ArcRing.jsx          # SVG progress arc with tick marks
 │   │   ├── ColonBlink.jsx       # Blinking colon separator
-│   │   ├── Controls.jsx         # Start / Pause / Reset buttons
+│   │   ├── Controls.jsx         # Start/Pause/Reset buttons
 │   │   ├── CountdownDisplay.jsx # Arc + central digit display
 │   │   ├── Digit.jsx            # Single animated digit
 │   │   ├── RealTimeClock.jsx    # Live clock header
@@ -36,7 +36,7 @@ countdown-clock/
 │   ├── hooks/
 │   │   ├── useCountdown.js      # All countdown timer logic
 │   │   └── useRealTime.js       # Live Date hook + formatter
-│   ├── App.jsx                  # Root — wires everything together
+│   ├── App.jsx                  # Root wires everything together
 │   ├── index.css                # Global resets + keyframes
 │   └── index.js                 # React DOM entry point
 ├── package.json
@@ -47,13 +47,13 @@ countdown-clock/
 
 ## Getting Started
 
-### 1. Install dependencies
+### 1.Install dependencies
 
 ```bash
 npm install
 ```
 
-### 2. Start the dev server
+### 2.Start the dev server
 
 ```bash
 npm start
@@ -61,7 +61,7 @@ npm start
 
 The app opens at **http://localhost:3000**.
 
-### 3. Build for production
+### 3.Build for production
 
 ```bash
 npm run build
