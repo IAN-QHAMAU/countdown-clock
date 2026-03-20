@@ -1,6 +1,6 @@
 # ⏱ Countdown Clock
 
-A sleek,sci-fi styled countdown timer with a live real-time clock built with React.
+A sleek ,sci-fi styled countdown timer with a live real-time clock built with React.
 
 ## Live Demo
 
